@@ -6,7 +6,7 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.02.1  | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+| 23.08.2022 | 0.02.1  | Erster Protokolleintrag |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -20,17 +20,20 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Es muss eine Zufellige Zahl herausfinden zwischen 1 und 100 | Funktion von einem Program | Es ist ein Spiel womit man eine zufällige Zahl heraus finden kann |
-| ...  |                 |      |                                    |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| 1    | Muss            | Funktion | Muss dem User die erwartet Zahl geben |
+| 2    | Muss            | Funktion | Der User kann eine Zahl zwischen 1 und 100 eingeben |
+| 3    | Kann            | Qualität | Die Webseite ist schön gestaltet |
+| 4    | Kann            | Funktion | Wenn der User einen Text anstat eine Zahl eingibt |
+| 5    | Rand            | Funktion | Die Webseite Funktioniert ohne Internet nicht |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 4.1  | Eine zufällige Zahl ist gegeben | User schreibt:"Hallo das ist ein Testversuch" (nicht geeignet) | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
+| 5.1  | Es besteht kein Internet zugang nach dem öffnen der Webseite = Die seite ladet nicht mehr | User schreibt:"24" | Program reagiert nicht |
+| 1.1  | Eine zufällige Zahl ist gegeben | User schreibt:"24" | Program reagiert:"Falsch, die Zahl ist zu tief" | 
+| 2.1  | Eine zufällige Zahl ist gegeben | User schriebt:"973" (nicht geeignet) | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
