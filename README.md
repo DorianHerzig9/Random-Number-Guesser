@@ -7,8 +7,8 @@
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 23.08.2022 | 0.02.1  | Erster Protokolleintrag |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 30.08.2022 | 1.00.0    | Erstellen der Arbeit  |
+|            |           |                                                              |
 
 ## 1 Informieren
 
@@ -63,7 +63,7 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  | 30.08.2022 |      | 150 min       |  80 min           |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
