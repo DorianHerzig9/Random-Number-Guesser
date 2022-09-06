@@ -24,14 +24,14 @@
 | 2    | Muss            | Funktion | Der User kann eine Zahl zwischen 1 und 100 eingeben |
 | 3    | Kann            | Qualität | Das Program ist schön gestaltet |
 | 4    | Kann            | Funktion | Wenn der User einen Text anstat eine Zahl eingibt |
-| 5    | Rand            | Funktion | Die Webseite Funktioniert ohne Internet |
+| 0    |                 | Funktion |                                 |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 4.1  | Eine zufällige Zahl ist gegeben | User schreibt:"Hallo das ist ein Testversuch" (nicht geeignet) "drückt enter" | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
-| 5.1  | Es besteht kein Internet zugang nach dem öffnen der Webseite = Die seite ladet nicht mehr | User schreibt:"24" "drückt enter" | Program reagiert nicht |
+|      |                             |              |                 |
 | 1.1  | Eine zufällige Zahl ist gegeben | User schreibt:"24" "druckt enter" | Program reagiert:"Falsch, die Zahl ist zu tief" | 
 | 2.1  | Eine zufällige Zahl ist gegeben | User schriebt:"973" (nicht geeignet) "drückt enter" | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
 
