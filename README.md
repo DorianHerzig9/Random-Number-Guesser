@@ -24,16 +24,16 @@
 | 2    | Muss            | Funktion | Der User kann eine Zahl zwischen 1 und 100 eingeben |
 | 3    | Kann            | Qualität | Die Webseite ist schön gestaltet |
 | 4    | Kann            | Funktion | Wenn der User einen Text anstat eine Zahl eingibt |
-| 5    | Rand            | Funktion | Die Webseite Funktioniert ohne Internet nicht |
+| 5    | Rand            | Funktion | Die Webseite Funktioniert ohne Internet |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 4.1  | Eine zufällige Zahl ist gegeben | User schreibt:"Hallo das ist ein Testversuch" (nicht geeignet) | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
+| 4.1  | Eine zufällige Zahl ist gegeben | User schreibt:"Hallo das ist ein Testversuch" (nicht geeignet) "drückt enter" | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
 | 5.1  | Es besteht kein Internet zugang nach dem öffnen der Webseite = Die seite ladet nicht mehr | User schreibt:"24" | Program reagiert nicht |
-| 1.1  | Eine zufällige Zahl ist gegeben | User schreibt:"24" | Program reagiert:"Falsch, die Zahl ist zu tief" | 
-| 2.1  | Eine zufällige Zahl ist gegeben | User schriebt:"973" (nicht geeignet) | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
+| 1.1  | Eine zufällige Zahl ist gegeben | User schreibt:"24" "druckt enter" | Program reagiert:"Falsch, die Zahl ist zu tief" | 
+| 2.1  | Eine zufällige Zahl ist gegeben | User schriebt:"973" (nicht geeignet) "drückt enter" | Program reagiert:"Bitte geben Sie eine gültige Zahl ein zwischen 1 und 100" |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
