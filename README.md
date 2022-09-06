@@ -22,7 +22,7 @@
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss            | Funktion | Muss dem User die erwartet Zahl geben |
 | 2    | Muss            | Funktion | Der User kann eine Zahl zwischen 1 und 100 eingeben |
-| 3    | Kann            | Qualität | Die Webseite ist schön gestaltet |
+| 3    | Kann            | Qualität | Das Program ist schön gestaltet |
 | 4    | Kann            | Funktion | Wenn der User einen Text anstat eine Zahl eingibt |
 | 5    | Rand            | Funktion | Die Webseite Funktioniert ohne Internet |
 
