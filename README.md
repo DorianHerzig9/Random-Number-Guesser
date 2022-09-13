@@ -46,8 +46,9 @@
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 30.8-6.9 | Dorian.Herzig | Programieren vom RNG Code | 120 min |
+| 2.A  | 30.8-6.9 | Dorian.Herzig | Text von dem Console.Wreitline | 10 min |
+| 3.A  | 30.8-6.9 | Dorian.Herzig | Verschönern vom Program | 20 min |
 
 Total: 
 
@@ -63,8 +64,9 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 30.08.2022 |      | 150 min       |  80 min           |
-| ...  |       |           |               |                   |
+| 1.A  | 30.08.2022 | Das Program schreiben | 150 min       |  80 min           |
+| 2.A  | 30.08.2022 | Textschreiben | 10 min              |  5 min                 |
+| 3.A  | 30.08.2022 | Verschönern | 20 min              |  25 min                 |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
@@ -74,10 +76,11 @@ Total:
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 4.1  | 13.09.2022 | Das System reagiert und schreibt, dass man einen gültigen Text eingeben soll. | Dorian.Herzig |
+| 1.1  | 13.09.2022 | Dass System gibt mir eine Zufällige Zahl ung man kann mit dem Program eingeben. | Dorian.Herzig |
+| 1.2  | 13.09.2022 | Das Program reagiert nicht wie gewünscht. Es reagiert genau so wie wenn man eine gültige Zahl eingibt. | 13.09.2022 |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Program funktioniert, doch manche Funktionen welche ich noch machen wollte konnte ich nicht einbringen.
 
 ### 5.2 Exploratives Testen
 
@@ -86,6 +89,7 @@ Total:
 | I    |              |         |                   |                      |
 | ...  |              |         |                   |                      |
 
+Keine Bugs gefunden - Alberto
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
